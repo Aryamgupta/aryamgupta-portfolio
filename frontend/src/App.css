@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #010C15;
+  color:white !important;
+  font-family: Fira Code;
+    font-weight: 450;
+    line-height: normal;
+}
+
+ ::-webkit-scrollbar {
+  width: 0px;
+ }
+
+ 
+ 
+
+.mainInterFace{
+  height: calc(100vh - 98px);
+  width: calc(100% -98px);
+  margin: 49px;
+  border-radius: 8px;
+  border: 1px solid #1E2D3D;
+  background-color: #011627;;
+}
+
+.fontFadeColor{
+  color: #607B96;
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.frontEndText{
+  color: #4D5BCE;
+    font-family: Fira Code;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.githubIntoHOme{
+  color: #607B96;
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.gitHomeLink{
+  color: white;
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.aboutListItemFont{
+  color: #FFF;
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutlistitem{
+ display: flex;
+ flex-direction: row;
+ /* justify-content: left; */
+ align-items: center;
+ background-color: rgba(255, 255, 255, 0.4);
+ padding:5px 0px 5px 20px ;
+ cursor: pointer;
+ margin: 10px 0 ;
+}
+
+.aboutlistitem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.eduCard{
+  width: calc(100% - 10px);
+}
+
+ .iconContainer{
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  filter:drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.8));
+ }
+
+ /* css fro modals */
+
+.basicModal{
+  background: rgba(1, 22, 39, 1) !important;
+  border-radius: 8px;
+  border: 1px solid #1E2D3D;
+  padding-bottom: 20px;
+  max-width: 400px !important;
+  margin: 0 auto;
+ }
+
+ .BackIM{
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ }
+
+ .show-more-less-clickable{
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+ }
+
+.borderAll{
+  border: 1px solid #1E2D3D;
+}
+.borderLeft {
+  border-left: 1px solid #1E2D3D;
+}
+.borderRight {
+  border-right: 1px solid #1E2D3D;
+}
+.borderTop {
+  border-top: 1px solid #1E2D3D;
+}
+.borderBottom {
+  border-bottom: 1px solid #1E2D3D;
+}
+
+.active{
+  color:white;
+  border-bottom: 3px solid #FEA55F !important;
+}
+
+@media screen and (max-width: 480px) {
+.mainInterFace {
+    height: calc(100vh - 28px);
+    margin: 14px;
+    width: calc(100% -28px);
+  }
+
+    .frontEndText {
+      color: #43D9AD;
+        font-family: Fira Code;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+    }
+
+    .githubIntoHOme{
+      color: #607B96;
+        font-family: Fira Code;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 140%;
+        /* 19.6px */
+    }
+
+        .gitHomeLink {
+          font-family: Fira Code;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+}
