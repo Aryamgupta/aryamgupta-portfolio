@@ -36,7 +36,7 @@ const PersonalInfo = () => {
       color="white"
       fontWeight="200"
     >
-      <Box textAlign="center" whiteSpace="pre-wrap">
+      <Box textAlign="justify" whiteSpace="pre-wrap">
         {des}
       </Box>
       <Box color="white" padding="0 0 0 auto">
